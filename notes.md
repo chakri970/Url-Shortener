@@ -18,6 +18,25 @@
 - **ChatGPT (OpenAI)**: Assisted in generating initial code structure, Flask routes, utility functions, and documentation drafts.
 - **GitHub Copilot**: Provided code suggestions and completion mainly for repetitive parts like validation and testing.
 
+## Usage
+
+- **Project Planning & Breakdown**: Used to understand the assignment, design endpoints (`/api/shorten`, `/short_code`, `/api/stats/<short_code>`), and outline the folder structure.
+- **Code Generation Support**:
+  - Initial draft of `main.py`, including Flask route structure.
+  - Helped write helper functions (e.g., `generate_short_code`, `validate_url`).
+  - Assisted in writing test cases for core functionality using `pytest`.
+- **Bug Fixes & Debugging**: Used to troubleshoot `ValueError`, threading issues, and Flask route redirection behavior.
+- **Documentation**:
+  - Helped write the `README.md` and `NOTES.md` files.
+  - Suggested formatting for API usage examples and curl commands.
+
+## AI-Generated Code Review
+
+- Most AI-suggested code was **modified** to fit the exact assignment spec.
+- Short code generation logic was inspired by AI, but adjusted to handle collision checks.
+- Validation logic was adapted and simplified from AI suggestion.
+- Custom error messages and return formats were manually fine-tuned.
+  
 ## Purpose of AI Assistance
 - Accelerate boilerplate code writing.
 - Suggest best practices for API design and error handling.
